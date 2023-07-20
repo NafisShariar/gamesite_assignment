@@ -160,7 +160,7 @@ nav {
   width: 50%;
 }
 
-.gamer-sec-container {
+.gamer-style {
   max-width: 1920px;
   margin: 0px auto;
   padding: 50px 240px;
@@ -173,11 +173,11 @@ nav {
   );
 }
 
-.gamer-sec-img {
+.gamer-images {
   width: 100%;
 }
 
-.gamer-sec-img img {
+.gamer-images img {
   width: 100%;
 }
 

@@ -19,7 +19,7 @@
   }
   nav,
   .nav-items,
-  .gamer-sec-container,
+  .gamer-style,
   .video-storage,
   .play-container {
     flex-direction: column;
@@ -41,7 +41,7 @@
     padding: 30px;
   }
 
-  .banner-image img {
+  .banner-image > img {
     width: 100%;
   }
 
@@ -57,7 +57,7 @@
     margin-top: 20px;
   }
 
-  .gamer-sec-container {
+  .gamer-style {
     margin: 30px auto;
     padding: 0px;
     background: none;
