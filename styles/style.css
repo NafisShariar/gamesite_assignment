@@ -1,6 +1,6 @@
-/* Work Sans Font */
+/* Google font import */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap");
-
+/* Global sytles */
 * {
   font-family: "Work Sans", sans-serif;
   margin: 0px;
@@ -8,6 +8,41 @@
   box-sizing: border-box;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 240px;
+}
+
+.logo-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.logo-title > span {
+  color: rgba(255, 66, 165, 1);
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  color: #3c354f;
+  font-size: 1em;
+  font-weight: 500;
+  list-style: none;
+  gap: 35px;
+}
+
+.follow-us {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 18px;
+  gap: 18px;
+}
+/* Main styles */
 .h2-title {
   text-align: center;
   font-family: Work Sans;
@@ -34,7 +69,7 @@
   line-height: 30px; /* 166.667% */
   padding-bottom: 20px;
 }
-
+/* Global primary btn styles */
 .primary-btn {
   padding: 21px 40px;
   border-radius: 48px;
@@ -69,41 +104,6 @@
 header {
   max-width: 1920px;
   margin: 0px auto;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px 240px;
-}
-
-.logo-title {
-  font-size: 3rem;
-  font-weight: 700;
-}
-
-.logo-title span {
-  color: rgba(255, 66, 165, 1);
-}
-
-.nav-items {
-  display: flex;
-  align-items: center;
-  color: #3c354f;
-  font-size: 1em;
-  font-weight: 500;
-  list-style: none;
-  gap: 35px;
-}
-
-.follow-us {
-  display: flex;
-  align-items: center;
-  border-radius: 8px;
-  background: rgba(11, 2, 35, 0.1);
-  padding: 18px;
-  gap: 18px;
 }
 
 .first-banner-container {
@@ -177,7 +177,7 @@ nav {
   width: 100%;
 }
 
-.gamer-images img {
+.gamer-images > img {
   width: 100%;
 }
 
@@ -221,7 +221,7 @@ nav {
   text-align: left;
 }
 
-.video-content img {
+.video-content > img {
   width: 100%;
 }
 
@@ -262,15 +262,13 @@ nav {
   top: 55%;
 }
 
-.slideshow>img {
+.slideshow > img {
   width: 100%;
 }
 
 .play-games-content {
   text-align: left;
 }
-
-
 
 .browse-games {
   max-width: 1920px;
