@@ -245,16 +245,16 @@ nav {
   margin: 10px 50px;
 }
 
-.play-image {
+.player-container {
   width: 50%;
   position: relative;
 }
 
-.play-image > img {
+.player-container > img {
   width: 100%;
 }
 
-.img-tatto {
+.slideshow {
   width: 50%;
   position: absolute;
   bottom: 0px;
@@ -262,7 +262,7 @@ nav {
   top: 55%;
 }
 
-.img-tatto img {
+.slideshow>img {
   width: 100%;
 }
 
@@ -270,9 +270,7 @@ nav {
   text-align: left;
 }
 
-.tatto-2 {
-  left: 70%;
-}
+
 
 .browse-games {
   max-width: 1920px;
